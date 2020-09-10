@@ -10,7 +10,7 @@ License: LGPLv2 and GPLv2
 Group: System Environment/Libraries
 URL: http://www.soft-switch.org
 %undefine _disable_source_fetch
-Source0: https://github.com/freeswitch/spandsp/archive/%{commit}.tar.gz
+Source0: https://github.com/lazedo/spandsp/archive/%{commit}.tar.gz
 BuildRoot: %{_tmppath}/spandsp-%{version}-%{release}-root-%(%{__id_u} -n)
 
 BuildRequires: libtiff-devel%{?_isa}
