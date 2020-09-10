@@ -19,7 +19,13 @@ BuildRequires: libxml2-devel%{?_isa}
 BuildRequires: libsndfile-devel%{?_isa}
 BuildRequires: doxygen
 BuildRequires: libxslt
-BuildRequires: docbook-style-xsl
+BuildRequires:  gcc-c++
+BuildRequires:  glib2-devel >=  2.4
+BuildRequires:  lksctp-tools-devel
+BuildRequires:  autoconf
+BuildRequires:  automake
+BuildRequires:  make
+BuildRequires:  libtool >= 1.5.17
 
 %description
 SpanDSP is a library of DSP functions for telephony, in the 8000
