@@ -1,6 +1,6 @@
 # BUILD using: rpmbuild -ba spandsp.spec
 # DOC: https://fedoraproject.org/wiki/Packaging:SourceURL
-%global commit f995f452ee79d03c4afa90b10e86a5f9c553920c
+%global commit 174e5abf6fe724b331004304600b9adb87ec9c54
 
 Summary: A DSP library for telephony.
 Name: spandsp3
